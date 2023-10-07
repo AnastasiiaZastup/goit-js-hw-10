@@ -1,9 +1,17 @@
 .breed-select {
-    width: 300px;
-    height: 70px;
-    background-color:rgb(156, 152, 158);
-    text-align: center;
-    text-decoration: black;
+    text-decoration: none;
+        display: inline-block;
+        color: rgb(2, 2, 2);
+        padding: 20px 30px;
+        margin: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: .5s;
    
 }
 
@@ -13,7 +21,7 @@
 
 .loader {
     font-weight: 400px;
-    color: blue;
+    color: rgb(159, 159, 230);
 }
 
 .cat-info {
@@ -21,6 +29,7 @@
     gap: 40px;
     margin-top: 40px;
     margin-left: 40px;
+    margin-right: 100px;
 }
 
 .textInformation {
@@ -28,6 +37,6 @@
     max-width: 700px;
 }
 
-.is-hidden {
+.hidden {
     display: none;
 }
